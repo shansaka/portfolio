@@ -47,12 +47,12 @@
         <h1 class="title">Salindu Hansaka</h1>
         <p class="section__text__p2">Full Stack Developer</p>
         <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+          <button class="btn btn-color-2" onclick="window.open('./assets/Salindu Hansaka - CV.pdf', '_blank')">Download CV</button>
           <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
         </div>
         <div id="socials-container">
-          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/in/salinduhansaka/'" />
-          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/shansaka'" />
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="window.open('https://linkedin.com/in/salinduhansaka/', '_blank')" />
+          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="window.open('https://github.com/shansaka', '_blank')" />
         </div>
       </div>
     </section>
@@ -201,8 +201,7 @@
       <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Personal Projects</h1>
+      <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
@@ -215,6 +214,15 @@
                 A .NET Core application that allows users to manage orders, customers, and products. The system is integrated with a WordPress site, synchronizing orders automatically. It uses AWS SQS
                 to process messages efficiently and sends email notifications to customers for order updates.
               </p>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://dev.azure.com/yentrix/Order%20Master%20Web/_git/ordermaster.git', '_blank')">Git Repo</button>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://ordersmaster.com/Login', '_blank')">Live Demo</button>
+              </div>
+              <h3>Login Information:</h3>
+              <ul>
+                <li>Username: salindu1994</li>
+                <li>Password: xgm4fyf9yqy5wvk_NZY</li>
+              </ul>
               <br />
               <h3>Technologies Used:</h3>
               <ul>
@@ -225,16 +233,6 @@
                 <li>AWS S3 (Document Managemnet)</li>
                 <li>WordPress (Integration)</li>
               </ul>
-              <br />
-              <h3>Login Information:</h3>
-              <ul>
-                <li>Username: salindu1994</li>
-                <li>Password: xgm4fyf9yqy5wvk_NZY</li>
-              </ul>
-            </div>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://dev.azure.com/yentrix/Order%20Master%20Web/_git/ordermaster.git'">Git Repo</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://ordersmaster.com/Login'">Live Demo</button>
             </div>
           </div>
           <div class="details-container color-container">
@@ -247,6 +245,16 @@
                 This gaming platform lets users browse games without signing in. Registered users can leave reviews, which require admin approval before being visible. Admins have a separate login to
                 manage games, reviews, and user data. An optional location-sharing feature provides localized content.
               </p>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/shansaka/game-critic', '_blank')">Git Repo</button>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://gamecritic-webapp-699bebb91feb.herokuapp.com', '_blank')">Live Demo</button>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://gamecritic-webapp-699bebb91feb.herokuapp.com/admin-login', '_blank')">Demo - Admin</button>
+              </div>
+              <h3>Login Information:</h3>
+              <ul>
+                <li>Username: hansaka.official@gmail.com</li>
+                <li>Password: 123456</li>
+              </ul>
               <br />
               <h3>Technologies Used:</h3>
               <ul>
@@ -255,16 +263,54 @@
                 <li>API - Node JS and Express</li>
                 <li>Database - MongoDB</li>
               </ul>
-              <br />
-              <h3>Login Information:</h3>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Thumblytics</h2>
+            <div class="project">
+              <p>
+                Thumblytics is a machine learning-based YouTube Thumbnail Performance Analyser designed to help content creators predict how effective their YouTube thumbnails will be. By analyzing
+                visual and metadata features, such as colors, text, objects, and facial emotions, Thumblytics provides content creators with actionable insights to optimize thumbnails and improve
+                video engagement.
+              </p>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/shansaka/thumblytics', '_blank')">Git Repo</button>
+              </div>
+              <h3>Technologies Used:</h3>
               <ul>
-                <li>Username: hansaka.official@gmail.com</li>
-                <li>Password: 123456</li>
+                <li>Web App - ReactJS</li>
+                <li>API - Python</li>
+                <li>Data Extract - YouTube Data API</li>
+                <li>Object Detection - YOLOv8</li>
+                <li>Emotion Detection - FER</li>
               </ul>
             </div>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/shansaka/game-critic'">Git Repo</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-4.png" alt="Project 4" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Pass Shield</h2>
+            <div class="project">
+              <p>
+                Pass Shield is a robust password management solution designed to securely store, manage, and generate credentials for a wide variety of platforms, including websites, desktop
+                applications, and games. The application focuses on simplicity, user security, and flexibility, making it ideal for individual users, families, or businesses that need to manage
+                multiple accounts securely.
+              </p>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/shansaka/PassShieldPasswordManager', '_blank')">Git Repo</button>
+              </div>
+              <h3>Technologies Used:</h3>
+              <ul>
+                <li>Programming Language - .NET, C#</li>
+                <li>Database - SQLite</li>
+                <li>Design Patterns - Singleton and Repository</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -277,11 +323,11 @@
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:shansaka.official@gmail.com" target="_blank" rel="noopener noreferrer">shansaka.official@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://linkedin.com/in/salinduhansaka/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -296,7 +342,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Salindu Hansaka. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
